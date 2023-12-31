@@ -1,0 +1,75 @@
+html, body, #app, #app>div :root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #333;
+  color: white;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 10vh;
+  z-index: 100;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(199, 199, 199); 
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0);
+}
+
+.content-section {
+  margin-top: 15vh;
+  margin-bottom: 10vh;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#name-logo {
+  font-size: 36px;
+  color: white;
+  letter-spacing: 4px;
+  margin: 1rem;
+
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+#nav-btn-wrapper {
+  margin: 1rem;
+}
+
+.nav-btn {
+  background-color: #94aeb6; 
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+#projects-btn, #about-btn {
+  background-color: #FECDA6;
+}
+
+#projects-btn, #about-btn {
+  background-color: #F6F1EE;
+}
+
+#contrast {
+  background-color: #e38d6b;
+  color: #fff;
+}
+
+#standard:hover {
+  background-color: #8aa4ad;
+}
+
+#contrast:hover {
+  background-color: #d37d5b;
+}
