@@ -1,2 +1,18 @@
-# react_portfolio_site
-Personal portfolio site built using Vite + React.
+# Matthew Peterson
+
+
+## Technologies
+
+### Frontend
+-React.js
+-CSS
+
+### Backend
+-Flask
+
+### Deployment
+-AWS
+
+### Version Control
+Git + Github
+
