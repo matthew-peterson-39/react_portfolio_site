@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useEffect } from 'react';
 
 function About() {
     const [activeTab, setActiveTab] = useState('Professional');
@@ -25,21 +26,31 @@ function About() {
 
     const personalText = ``;
     const personalSummary = ``;
+
+    const technicalText = ``;
+    const technicalSummary = ``;
     
     const tabContent = {
         Professional: professionalText,
-        Personal: 'Personal content goes here...',
-        Technical: 'Technical content goes here...'
+        Personal: personalText,
+        Technical: technicalText
     };
 
     const renderContent = () => {
         if (activeTab === 'Professional') {
             return showSummary ? professionalSummary : professionalText;
         }
+        if (activeTab === 'Personal') {
+            return showSummary ? personalSummary : personalText;
+        }
+        if (activeTab === 'Technical') {
+            return showSummary ? technicalSummary : technicalText;
+        }
         return tabContent[activeTab];
     };
 
     return (
+        <>
         <div className="about-container">
             <h2 className="about-title">About</h2>
             <div className="title-underline"></div>
@@ -80,7 +91,10 @@ function About() {
             <p className="about-description">
                 {renderContent()}
             </p>
+            
         </div>
+              
+        </>
     );
 }
 

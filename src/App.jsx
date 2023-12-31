@@ -9,6 +9,7 @@ import './styles/About.css'
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
+  
   return (
     <>
     <nav>
@@ -25,6 +26,9 @@ function App() {
       <div></div>
     </div>
     <ContactFormModal isOpen={isModalOpen} closeModal={() => setIsModalOpen(!isModalOpen)}/>
+    <footer>
+      <a href="https://www.linkedin.com/in/matthew-peterson-tech">Matthew Peterson</a>
+    </footer>
     </>
   )
 }
