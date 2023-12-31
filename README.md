@@ -4,15 +4,15 @@
 ## Technologies
 
 ### Frontend
--React.js
--CSS
+- React.js
+- CSS
 
 ### Backend
--Flask
+- Flask
 
 ### Deployment
--AWS
+- AWS
 
 ### Version Control
-Git + Github
+- Git + Github
 
