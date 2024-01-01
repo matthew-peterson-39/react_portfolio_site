@@ -27,10 +27,14 @@
     margin: 10px auto;
 }
 
-.about-description {
-    font-size: 18px;
-    line-height: 30px;
-    text-align: left;
+.paragraph {
+    text-indent: 20px;
+}
+
+.paragraph, .bullet-list {
+    line-height: 1.6;
+    font-size: 16px;
+    padding: 1rem;
 }
 
 .tabs {

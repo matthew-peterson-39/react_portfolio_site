@@ -72,17 +72,21 @@ function About() {
         Technical: technicalText
     };
 
-    const renderContent = () => {
-        if (activeTab === 'Professional') {
-            return showSummary ? professionalSummary : professionalText;
+    const renderAboutContent = () => {
+        const isSummary = (activeTab === 'Professional' && showSummary) ||
+                          (activeTab === 'Personal' && showSummary) ||
+                          (activeTab === 'Technical' && showSummary);
+    
+        if (isSummary) {
+            const summaryContent = activeTab === 'Professional' ? professionalSummary :
+                                    activeTab === 'Personal' ? personalSummary :
+                                    technicalSummary;
+    
+            return <div className="bullet-list">{summaryContent}</div>;
+        } else {
+            const textContent = tabContent[activeTab];
+            return <p className="paragraph">{textContent}</p>;
         }
-        else if (activeTab === 'Personal') {
-            return showSummary ? personalSummary : personalText;
-        }
-        else if (activeTab === 'Technical') {
-            return showSummary ? technicalSummary : technicalText;
-        }
-        return tabContent[activeTab];
     };
 
     return (
@@ -121,9 +125,9 @@ function About() {
                     </button>
                 ))}
             </div>
-            <p className="about-description">
-                {renderContent()}
-            </p>
+            <div>
+                {renderAboutContent()}
+            </div>
             
         </div>
               
