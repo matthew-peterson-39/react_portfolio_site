@@ -4,8 +4,6 @@ Hello World! Thank you for taking the time to check out my portfolio. This singl
 
 [Let's connect on LinkedIn!](https://www.linkedin.com/in/matthew-peterson-tech/)
 
->"Difficulties strengthen the mind, as labor does the body." -Seneca
-
 ## Technologies
 
 ### Frontend
@@ -20,4 +18,6 @@ Hello World! Thank you for taking the time to check out my portfolio. This singl
 
 ### Version Control
 - Git + Github
+  
+>"Difficulties strengthen the mind, as labor does the body." -Seneca
 
