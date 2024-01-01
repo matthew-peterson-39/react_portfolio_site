@@ -5,6 +5,9 @@ import './styles/ContactFormModal.css'
 
 import About from './components/About';
 import './styles/About.css'
+import Porjects from './components/Projects'
+import './styles/Projects.css'
+import Projects from './components/Projects';
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -22,8 +25,7 @@ function App() {
     </nav>
     <div className='content-section'>
       <About />
-      <div></div>
-      <div></div>
+      <Projects />
     </div>
     <ContactFormModal isOpen={isModalOpen} closeModal={() => setIsModalOpen(!isModalOpen)}/>
     <footer>

@@ -1,0 +1,22 @@
+.project-container {
+    padding: 1rem;
+    min-width: 30%;
+    max-height: 800px;
+    max-width: 700px;
+    min-width: 700px;
+    background-color: rgb(199, 199, 199); 
+    color: #0f2027;
+}
+
+.project-heading {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.project-title {
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: bold;
+}

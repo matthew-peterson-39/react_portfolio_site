@@ -31,6 +31,7 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 4rem;
 }
 
 #name-logo {
@@ -50,6 +51,9 @@ nav {
   border: none;
   padding: 10px 20px;
   margin: 5px;
+  background-color: #3c6e84;
+  color: white;
+  border-radius: 5px;
   cursor: pointer;
 }
 
@@ -71,3 +75,9 @@ nav {
   background-color: #8aa4ad;
 }
 
+.title-underline {
+  width: 100%;
+  height: 2px;
+  background-color: #0f2027;
+  margin: 10px auto;
+}
