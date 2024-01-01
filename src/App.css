@@ -1,10 +1,10 @@
-html, body, #app, #app>div :root {
+html {
   height: 100%;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #333;
-  color: white;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #0f2027;
 }
 
 nav {
@@ -34,7 +34,7 @@ nav {
 
 #name-logo {
   font-size: 36px;
-  color: white;
+  color: #0f2027;
   letter-spacing: 4px;
   margin: 1rem;
 
@@ -53,16 +53,17 @@ nav {
   cursor: pointer;
 }
 
-#projects-btn, #about-btn {
-  background-color: #FECDA6;
-}
-
-#projects-btn, #about-btn {
-  background-color: #F6F1EE;
-}
-
 #contrast {
   background-color: #e38d6b;
+  color: #fff;
+}
+
+#contrast:hover {
+  background-color: #d37d5b;
+}
+
+#standard {
+  background-color: #3c6e84;
   color: #fff;
 }
 
@@ -70,6 +71,3 @@ nav {
   background-color: #8aa4ad;
 }
 
-#contrast:hover {
-  background-color: #d37d5b;
-}
