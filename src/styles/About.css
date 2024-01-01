@@ -3,8 +3,7 @@
     min-width: 30%;
     max-height: 700px;
     max-width: 700px;
-    /* text-align: center; */
-    background-color: whitesmoke;
+    background-color: rgb(199, 199, 199); 
     color: #333;
 }
 
@@ -26,7 +25,7 @@
 }
 
 .tabs {
-    background-color: white;
+    background-color: rgb(199, 199, 199); 
     font-size: 32px;
     display: flex;
     justify-content: center;
