@@ -88,7 +88,24 @@ function About() {
     return (
         <>
         <div className="about-container">
-            <h2 className="about-title">About</h2>
+            <div className='about-heading'>
+                <h2 className="about-title">About</h2>
+                {activeTab === 'Professional' && (
+                    <button className="toggle-summary" onClick={() => setShowSummary(!showSummary)}>
+                        {showSummary ? 'Read Full Story' : 'Show Summary'}
+                    </button>
+                )}
+                {activeTab === 'Personal' && (
+                    <button className="toggle-summary" onClick={() => setShowSummary(!showSummary)}>
+                        {showSummary ? 'Read Full Story' : 'Show Summary'}
+                    </button>
+                )}
+                {activeTab === 'Technical' && (
+                    <button className="toggle-summary" onClick={() => setShowSummary(!showSummary)}>
+                        {showSummary ? 'Read Full Story' : 'Show Summary'}
+                    </button>
+                )}
+            </div>
             <div className="title-underline"></div>
             
             <div className="tabs">
@@ -104,23 +121,6 @@ function About() {
                     </button>
                 ))}
             </div>
-
-            {activeTab === 'Professional' && (
-                <button className="toggle-summary" onClick={() => setShowSummary(!showSummary)}>
-                    {showSummary ? 'Read Full Story' : 'Show Summary'}
-                </button>
-            )}
-            {activeTab === 'Personal' && (
-                <button className="toggle-summary" onClick={() => setShowSummary(!showSummary)}>
-                    {showSummary ? 'Read Full Story' : 'Show Summary'}
-                </button>
-            )}
-            {activeTab === 'Technical' && (
-                <button className="toggle-summary" onClick={() => setShowSummary(!showSummary)}>
-                    {showSummary ? 'Read Full Story' : 'Show Summary'}
-                </button>
-            )}
-
             <p className="about-description">
                 {renderContent()}
             </p>
