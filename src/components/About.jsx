@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 
 function About() {
     const [activeTab, setActiveTab] = useState('Professional');
-    const [showSummary, setShowSummary] = useState(false);
+    const [showSummary, setShowSummary] = useState(true);
 
     const professionalText = `Starting my career at 18 as a part-time Dollar Tree employee, I 
     quickly advanced to assistant manager, kickstarting my journey in leadership and team management. 
@@ -47,8 +47,26 @@ function About() {
         </ul>
     );
 
-    const technicalText = ``;
-    const technicalSummary = ``;
+    const technicalText = `Pursuing a Computer Science degree at Colorado State University with 
+    a projected graduation in 2024, I've acquired a diverse skill set encompassing Java, C++, and 
+    Python, along with deep dives into Networking, Security, and Software Engineering. My practical 
+    application of these skills is evident in projects like a task-managing 'Flow Timer' using 
+    Arduino and a Python script for inventory automation in Shopify. I’ve also developed various 
+    websites using HTML5, CSS3, JavaScript, React, Django, and Flask. Keen to expand my horizons, 
+    I'm exploring Next.js for its serverless capabilities. This blend of formal education and 
+    self-driven projects reflects my passion for technology, constant learning, and a belief in 
+    redefining challenges as opportunities for innovation.
+    `;
+    const technicalSummary = (
+        <ul>
+            <li>Studying Computer Science at Colorado State University, set to graduate with honors in 2024.</li>
+            <li>Proficient in Java, C++, and Python, with coursework in Networking, Security, Software Engineering, and more.</li>
+            <li>Developed a 'Flow Timer' Arduino project and a Python script for Shopify inventory management.</li>
+            <li>Experienced in web development using HTML5, CSS3, JavaScript, React, Django, and Flask.</li>
+            <li>Exploring Next.js for its advanced serverless features.</li>
+            <li>Committed to continuous learning and innovation in technology.</li>
+        </ul>
+    );
     
     const tabContent = {
         Professional: professionalText,
@@ -60,10 +78,10 @@ function About() {
         if (activeTab === 'Professional') {
             return showSummary ? professionalSummary : professionalText;
         }
-        if (activeTab === 'Personal') {
+        else if (activeTab === 'Personal') {
             return showSummary ? personalSummary : personalText;
         }
-        if (activeTab === 'Technical') {
+        else if (activeTab === 'Technical') {
             return showSummary ? technicalSummary : technicalText;
         }
         return tabContent[activeTab];
