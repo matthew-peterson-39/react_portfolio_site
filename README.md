@@ -18,6 +18,3 @@ Hello World! Thank you for taking the time to check out my portfolio. This singl
 
 ### Version Control
 - Git + Github
-  
->"Difficulties strengthen the mind, as labor does the body." -Seneca
-
