@@ -15,7 +15,6 @@ function About() {
     These experiences, though not in a technical field, have equipped me with invaluable leadership, 
     project management, and teamwork skills, readily transferable to any professional setting.
     `
-    
     const professionalSummary = (
         <ul>
             <li>Started career at 18 as a part-time employee at Dollar Tree, quickly promoted to assistant manager.</li>
@@ -100,9 +99,6 @@ function About() {
                         className={`tab-button ${activeTab === tab ? 'active' : ''}`}
                         onClick={() => {
                             setActiveTab(tab);
-                            if (tab !== 'Professional') {
-                                setShowSummary(false);
-                            }
                         }}
                     >
                         {tab}
