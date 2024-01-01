@@ -5,13 +5,16 @@ function About() {
     const [activeTab, setActiveTab] = useState('Professional');
     const [showSummary, setShowSummary] = useState(false);
 
-    const professionalText = `I began my career journey at 18, starting as a part-time employee at a local Dollar Tree. My dedication and work ethic quickly led me to an assistant manager role, where I was responsible for leading the closing shift. This early experience laid the foundation for my leadership and team management skills.
-    After graduating, I enlisted in the Air Force, where my commitment to excellence was evident from the start. I graduated from Basic Military Training (BMT) as an Honor Graduate, recognized for both scholastic and fitness achievements. At my first duty station, I distinguished myself among peers, earning the Below-the-Zone (BTZ) award, which led to an early promotion to E4.
-    As a testament to my leadership potential, I was ranked #1 among maintenance squadron candidates for the Non-Commissioned Officer (NCO) role by my Squadron Commander. Combined with my scores on the Weighted Airman Promotion System (WAPS) test, I was promoted to Staff Sergeant (E5) within three years of service.
-    During my preparation for the NCO role, I attended Airman Leadership School (ALS), an 8-week program focusing on key leadership principles and team management practices. Graduating at the top of my class, I received the John L. Levitow Award, underscoring my leadership and scholastic abilities.
-    As an NCO, I adopted an empathetic leadership style, which led to my selection as an instructor for the First Term Airman Course. This role involved guiding newly enlisted members, further honing my abilities to lead and mentor effectively.
-    In my subsequent role leading swing-shift operations, I managed a team in project execution, from research and procurement to communication and technical planning. This role honed my skills in project management, encompassing all aspects of planning, team coordination, and execution.
-    Throughout my six years in the Air Force, I maintained a record free of disciplinary infractions and received multiple Achievement Medals, highlighting key accomplishments during my service. Although my experience was not in a technical field, the leadership, project management, and team collaboration skills I developed are invaluable assets in any team environment, including software engineering.`
+    const professionalText = `Starting my career at 18 as a part-time Dollar Tree employee, I 
+    quickly advanced to assistant manager, kickstarting my journey in leadership and team management. 
+    My Air Force tenure further honed these skills, marked by early promotions, academic and fitness 
+    recognitions, and the prestigious John L. Levitow Award at Airman Leadership School. As a Staff 
+    Sergeant, I excelled in mentoring roles and managing complex projects, demonstrating effective 
+    communication, empathy, and strategic planning. My six years of disciplined service, free from 
+    any infractions and decorated with multiple Achievement Medals, reflect my dedication to excellence. 
+    These experiences, though not in a technical field, have equipped me with invaluable leadership, 
+    project management, and teamwork skills, readily transferable to any professional setting.
+    `
     
     const professionalSummary = (
         <ul>
@@ -24,8 +27,25 @@ function About() {
         </ul>
     );
 
-    const personalText = ``;
-    const personalSummary = ``;
+    const personalText = `In my leisure, I engage in activities that blend mental stimulation with 
+    physical challenge, reflecting my deep-rooted curiosity and a balanced approach to life. From 
+    the precision of skateboarding in my youth to the problem-solving aspects of rock climbing and 
+    the tranquility of playing acoustic guitar, each hobby enriches my creativity and critical 
+    thinking skills. My penchant for tinkering with electronics, starting with disassembling gadgets 
+    as a child to building computers and experimenting with Arduino boards, showcases my technical
+    aptitude and innovative spirit. These pursuits not only fuel my creativity in tackling coding 
+    challenges but also underscore the importance I place on mindfulness and well-being, essential 
+    for a healthy work-life balance and effective problem-solving in professional settings.
+    `
+    const personalSummary = (
+        <ul>
+            <li>Passionate about blending physical and mental challenges, from precision skateboarding to problem-solving in rock climbing.</li>
+            <li>Keen interest in technology, showcased by a history of tinkering with electronics, building computers, and working with Arduino boards.</li>
+            <li>Find creative inspiration and mindfulness through playing acoustic guitar and immersing in nature with my dog.</li>
+            <li>Advocate for a balanced lifestyle, emphasizing well-being and stress management alongside professional development.</li>
+            <li>My hobbies foster creativity, critical thinking, and innovative problem-solving skills, applicable in technology and team environments.</li>
+        </ul>
+    );
 
     const technicalText = ``;
     const technicalSummary = ``;
