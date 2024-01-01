@@ -81,3 +81,28 @@ nav {
   background-color: #0f2027;
   margin: 10px auto;
 }
+
+.tabs {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: none;
+  background-color: transparent;
+  color: #0f2027;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.tab-button:hover {
+  background-color: #f0f0f0;
+}
+
+.tab-button.active {
+  border-bottom: 2px solid #0f2027;
+}

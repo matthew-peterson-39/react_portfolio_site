@@ -67,9 +67,9 @@ function About() {
     );
     
     const tabContent = {
-        Professional: professionalText,
-        Personal: personalText,
-        Technical: technicalText
+        'Professional': professionalText,
+        'Personal': personalText,
+        'Technical': technicalText
     };
 
     const renderAboutContent = () => {
