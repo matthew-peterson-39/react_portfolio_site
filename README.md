@@ -1,6 +1,8 @@
 # Matthew Peterson
 
-Welcome! Thanks for taking the time to check out my portfolio! This single-page application highlights my past, present, and future as I continue to learn and advanced my Software Engineer toolkit! Any feedback is welcome. Reach out via the contact section of the website and I will respond back as soon as possible.
+Hello World! Thank you for taking the time to check out my portfolio. This single-page application highlights my past, present, and future as I continue to learn and advanced my Software Engineer toolkit! I would love to hear feedback or spark discussion about whatever might be intresting to you. Hit me up on linkedIn or via the contact section of my website, whichever you prefer!
+
+[Let's connect on LinkedIn!](https://www.linkedin.com/in/matthew-peterson-tech/)
 
 >"Difficulties strengthen the mind, as labor does the body." -Seneca
 
