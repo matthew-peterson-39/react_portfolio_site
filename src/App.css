@@ -8,6 +8,12 @@ html {
   color: #0f2027;
 }
 
+body {
+  font-size: 17px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
 nav {
   position: fixed;
   top: 0;
@@ -19,8 +25,23 @@ nav {
   justify-content: space-between;
   align-items: center;
   background-color: rgb(199, 199, 199); 
-  z-index: 1000;
   box-shadow: 0 2px 4px rgba(0, 0, 0);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: fit-content;
+  z-index: 100;
+  padding: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(199, 199, 199); 
+  box-shadow: 0 2px 4px rgba(0, 0, 0);
+
 }
 
 .content-section {

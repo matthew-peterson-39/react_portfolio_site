@@ -10,7 +10,8 @@ const Projects = () => {
 };
   return (
     <>
-    <div className='project-container'>
+    <section>
+    {/* <div className='project-container'> */}
       <div className='project-heading'>
           <h2 className='project-title'>Projects</h2>
       </div>
@@ -28,7 +29,8 @@ const Projects = () => {
           </button>
       ))}
     </div>
-    </div>
+    {/* </div> */}
+    </section>
     </>
   )
 }
