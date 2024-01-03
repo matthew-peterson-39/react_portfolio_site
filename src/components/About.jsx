@@ -92,7 +92,6 @@ function About() {
     return (
         <>
         <section>
-        {/* <div className="about-container"> */}
             <div className='about-heading'>
                 <h2 className="about-title">About</h2>
                 {activeTab === 'Professional' && (
@@ -129,7 +128,6 @@ function About() {
             <div>
                 {renderAboutContent()}
             </div>
-        {/* </div> */}
         </section>
               
         </>
