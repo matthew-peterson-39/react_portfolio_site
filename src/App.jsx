@@ -13,7 +13,7 @@ import Projects from './components/Projects';
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  
+
   return (
     <>
     <Navbar 
