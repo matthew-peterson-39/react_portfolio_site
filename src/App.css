@@ -14,36 +14,6 @@ body {
   font-weight: 400;
 }
 
-nav {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 10vh;
-  z-index: 100;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: rgb(199, 199, 199); 
-  box-shadow: 0 2px 4px rgba(0, 0, 0);
-}
-
-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: fit-content;
-  z-index: 100;
-  padding: 1rem;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(199, 199, 199); 
-  box-shadow: 0 2px 4px rgba(0, 0, 0);
-
-}
-
 .content-section {
   margin-top: 15vh;
   margin-bottom: 10vh;
@@ -55,28 +25,7 @@ footer {
   gap: 4rem;
 }
 
-#name-logo {
-  font-size: 36px;
-  color: #0f2027;
-  letter-spacing: 4px;
-  margin: 1rem;
 
-  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
-}
-
-#nav-btn-wrapper {
-  margin: 1rem;
-}
-
-.nav-btn {
-  border: none;
-  padding: 10px 20px;
-  margin: 5px;
-  background-color: #3c6e84;
-  color: white;
-  border-radius: 5px;
-  cursor: pointer;
-}
 
 #contrast {
   background-color: #e38d6b;
@@ -126,4 +75,36 @@ footer {
 
 .tab-button.active {
   border-bottom: 2px solid #0f2027;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: fit-content;
+  z-index: 100;
+  padding: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background-color: rgb(199, 199, 199); 
+  box-shadow: 0 2px 4px rgba(0, 0, 0);
+
+}
+
+.github-icon {
+  color: black;
+  &:hover {
+    color: #e38d6b; /* GitHub's primary green color */
+  }
+}
+
+.linkedin-icon {
+  color: black;
+  &:hover {
+    color: #e38d6b; /* GitHub's primary green color */
+  }
 }
