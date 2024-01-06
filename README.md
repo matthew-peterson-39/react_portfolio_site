@@ -10,11 +10,5 @@ Hello World! Thank you for taking the time to check out my portfolio. This singl
 - React.js
 - CSS
 
-### Backend
-- Flask
-
-### Deployment
-- AWS
-
 ### Version Control
 - Git + Github
